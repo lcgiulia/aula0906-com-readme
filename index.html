@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercadinho Digital</title>
+</head>
+<body>
+    <h1>Mercadinho Digital</h1>
+
+  <div class="container">
+    <div class="products">
+      <h2>Produtos</h2>
+      <div class="product">
+        <span>Maçã - R$2,00</span>
+        <button onclick="addToCart('Maçã', 2.00)">Adicionar</button>
+      </div>
+      <div class="product">
+        <span>Pão - R$1,50</span>
+        <button onclick="addToCart('Pão', 1.50)">Adicionar</button>
+      </div>
+      <div class="product">
+        <span>Leite - R$4,00</span>
+        <button onclick="addToCart('Leite', 4.00)">Adicionar</button>
+      </div>
+     
+    </div>
+
+    <div class="cart">
+      <h2>Carrinho</h2>
+      <ul id="cart-list">
+       
+      </ul>
+      <p><strong>Total: R$ <span id="total">0.00</span></strong></p>
+    </div>
+  </div>
+
+    
+</body>
+</html>
